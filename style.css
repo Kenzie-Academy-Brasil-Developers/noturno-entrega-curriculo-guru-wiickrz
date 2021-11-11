@@ -1,27 +1,103 @@
-.clear {
-	clear: both;
+body,
+html {
+  background-color: #f3f3f3;
+  font-family: Lato, sans-serif;
+  font-size: 28px;
 }
 
-#headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+.clear {
+  clear: both;
+}
+
+.mainDetails {
+  width: 80%;
+  margin: auto;
+  border-bottom: solid #cf8a05 2px;
+}
+
+/* #headshot {
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+} */
+
+img {
+  size: 80%;
+  border-radius: 50%;
+  margin: 25px;
+  float: left;
 }
 
 #name {
-	float: left;
+  float: left;
+  margin: 25px;
+}
+
+#name h1 {
+  font-size: 130%;
+  margin-bottom: -30px;
 }
 
 #contactDetails {
-	float: right;
+  float: right;
+  margin: 25px;
 }
 
 .sectionTitle {
-	float: left;
-	width: 25%;
+  color: #cf8a05;
+  float: left;
+  width: 25%;
+  font-style: italic;
+  text-align: right;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+  float: right;
+  width: 72.5%;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2 {
+  font-family: Rokkitt, sans-serif;
+  font-size: 100%;
+}
+
+section {
+  border-bottom: #dedede 1px solid;
+  margin: auto;
+  width: 80%;
+}
+
+section:last-child {
+  border: none;
+}
+
+.keySkills {
+  columns: 3;
+}
+
+.subDetails {
+  font-style: italic;
+  font-size: 70%;
+  margin: -25px 0 -10px;
+}
+
+a, p {
+  margin: 20px 0;
+  text-decoration: none;
+  color: #181818;
+}
+
+#mainArea {
+  width: 95%;
+  margin: auto;
+}
+
+ul, p {
+    padding: 0px;
+    font-size: 80%;
 }
